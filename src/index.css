@@ -14,4 +14,12 @@ body {
   color: white;
   box-shadow: 0 1em 4em rgba(0, 0, 0, 0.3);
   border-radius: 1rem;
+  min-width: 75% !important;
+}
+.btn-change {
+  background: rgb(26, 120, 167);
+  transition: 0.3s;
+}
+.btn-change:hover {
+  background-color: rgb(21, 89, 123);
 }
